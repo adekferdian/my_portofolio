@@ -22,7 +22,7 @@ function App() {
           {/* <StarsCanvas /> */}
           <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
-          // className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+          className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
         >
           <div 
             style={{
@@ -31,7 +31,7 @@ function App() {
               bottom: 100,
             }}
           >
-            <EarthCanvas />
+            {/* <EarthCanvas /> */}
           </div>
         </motion.div>
           <div 
@@ -54,16 +54,16 @@ function App() {
             </a>
           </div>
         </div>
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed">
           <About />
         </div>
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center bg-scroll">
           <Experience />
         </div>
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed">
           <Tech />
         </div>
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed">
           <Kontak />
         </div>
     </BrowserRouter>
