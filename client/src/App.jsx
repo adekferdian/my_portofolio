@@ -9,7 +9,7 @@ import Contact from 'src/components/Contact';
 import { EarthCanvas } from "src/components/canvas";
 import { slideIn, fadeIn, textVariant } from "src/utils/motion";
 import {
-  About, Experience, Kontak, Tech, TechTwo
+  About, Experience, Kontak, Tech, TechTwo, TechWeb
 } from './components';
 import useMobileDetector from './utils/useMobileDetector';
 
@@ -65,7 +65,12 @@ function App() {
           <Experience />
         </div>
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed">
-          <Tech isMobileWidth={isMobileWidth} />
+          {
+            isMobileWidth ?
+            <Tech />
+            :
+            <TechWeb />
+          }
         </div>
         {
           isMobileWidth &&
