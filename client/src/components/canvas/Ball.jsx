@@ -22,13 +22,13 @@ const Ball = (props) => {
         <meshStandardMaterial
           color='#fff8eb'
           polygonOffset
-          polygonOffsetFactor={-5}
+          polygonOffsetFactor={0}
           flatShading
         />
         <Decal
           position={[0, 0, 1]}
           rotation={[2 * Math.PI, 0, 6.25]}
-          scale={1}
+          scale={1.5}
           map={decal}
           flatShading
         />
@@ -40,7 +40,7 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
-      frameloop='demand'
+      frameloop='always'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
@@ -49,7 +49,7 @@ const BallCanvas = ({ icon }) => {
         <Ball imgUrl={icon} />
       </Suspense>
 
-      <Preload all />
+      <Preload all camera />
     </Canvas>
   );
 };
