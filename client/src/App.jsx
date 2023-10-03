@@ -72,12 +72,6 @@ function App() {
             <TechWeb />
           }
         </div>
-        {
-          isMobileWidth &&
-          <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed">
-            <TechTwo />
-          </div>
-        }
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed">
           <Kontak />
         </div>

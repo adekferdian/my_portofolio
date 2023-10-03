@@ -88,13 +88,17 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "kotlin",
+    icon: kotlin,
+  },
   // {
   //   name: "git",
   //   icon: git,
