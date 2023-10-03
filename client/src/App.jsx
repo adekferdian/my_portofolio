@@ -11,8 +11,12 @@ import { slideIn, fadeIn, textVariant } from "src/utils/motion";
 import {
   About, Experience, Kontak, Tech, TechTwo
 } from './components';
+import useMobileDetector from './utils/useMobileDetector';
 
 function App() {
+  const isMobileWidth = useMobileDetector();
+
+  console.log(isMobileWidth, '<<<<<<');
 
   return (
     <BrowserRouter>
@@ -61,11 +65,14 @@ function App() {
           <Experience />
         </div>
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed">
-          <Tech />
-          {/* <TechTwo /> */}
+          <Tech isMobileWidth={isMobileWidth} />
         </div>
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed">
-        </div>
+        {
+          isMobileWidth &&
+          <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed">
+            <TechTwo />
+          </div>
+        }
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed">
           <Kontak />
         </div>
