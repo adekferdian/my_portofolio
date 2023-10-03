@@ -9,7 +9,7 @@ import Contact from 'src/components/Contact';
 import { EarthCanvas } from "src/components/canvas";
 import { slideIn, fadeIn, textVariant } from "src/utils/motion";
 import {
-  About, Experience, Kontak, Tech
+  About, Experience, Kontak, Tech, TechTwo
 } from './components';
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
           </div>
         </motion.div>
           <div 
-            className='absolute xs:bottom-10 bottom-10 w-full flex justify-center items-center'
+            className='absolute xs:bottom-30 bottom-20 w-full flex justify-center items-center'
           >
             <a href="#about">
               <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
@@ -62,6 +62,9 @@ function App() {
         </div>
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed">
           <Tech />
+          {/* <TechTwo /> */}
+        </div>
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed">
         </div>
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed">
           <Kontak />
