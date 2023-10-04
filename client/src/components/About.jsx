@@ -48,8 +48,6 @@ const About = () => {
       >
         I am a Full-stack developer. I love to be creative and inventive. 
         I am a skilled software developer with experience in TypeScript and
-        JavaScript.
-        I am a skilled software developer with experience in TypeScript and
         JavaScript, and expertise in frameworks like React, Next and Node.js. I am also expertise in Kotlin.
         I am very eager to learn new technologies, 
         and I am able to be dependable enough in situation where one requires to do so. 

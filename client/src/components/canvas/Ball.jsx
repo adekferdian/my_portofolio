@@ -33,6 +33,7 @@ const Ball = (props) => {
           flatShading
         />
       </mesh>
+      {/* <p>tes</p> */}
     </Float>
   );
 };
@@ -41,7 +42,7 @@ const BallCanvas = ({ icon }) => {
   return (
     <Canvas
       frameloop='always'
-      // dpr={[0, 1]}
+      dpr={[0, 1]}
       // gl={{ preserveDrawingBuffer: true }}
       onCreated={(state) => console.log(state)}
     >
