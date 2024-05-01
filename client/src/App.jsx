@@ -35,7 +35,6 @@ function App() {
               bottom: 100,
             }}
           >
-            {/* <EarthCanvas /> */}
           </div>
         </motion.div>
           <div 
