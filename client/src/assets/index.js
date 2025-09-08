@@ -38,6 +38,11 @@ import bayu_buana from './bayuBuana.gif';
 import erloom from './erlooom.webp';
 import kotlin from './kotlin.png';
 
+import kara from './kara_logo.jpeg';
+import avrist from './avrist_logo.png';
+import metranet from './metra_logo.png';
+import mandala from './mandala_logo.webp'
+
 export {
   logo,
   backend,
@@ -73,5 +78,9 @@ export {
   kalbe,
   erloom,
   bayu_buana,
-  kotlin
+  kotlin,
+  kara,
+  avrist,
+  metranet,
+  mandala
 };

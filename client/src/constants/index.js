@@ -29,7 +29,11 @@ import {
   bayu_buana,
   erloom,
   kalbe,
-  kotlin
+  kotlin,
+  kara,
+  avrist,
+  metranet,
+  mandala
 } from "../assets";
 
 export const navLinks = [
@@ -99,22 +103,22 @@ const technologies = [
     name: "kotlin",
     icon: kotlin,
   },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
-  // {
-  //   name: "kotlin",
-  //   icon: kotlin,
-  // },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
+    name: "kotlin",
+    icon: kotlin,
+  },
 ];
 
 const technologiesWeb = [
@@ -204,6 +208,58 @@ const technologies2 = [
 ];
 
 const experiences = [
+  {
+    title: "Frontend Developer (Full-time)",
+    company_name: "PT. Mandala Finance",
+    icon: mandala,
+    iconBg: "#383E56",
+    date: "Nov 2024 - Present",
+    points: [
+      "Developed Mantis Hub (Web App) and Mantis Go (Mobile App) for internal employees",
+      "Collaborated with UI/UX designers to translate designs into interactive applications",
+      "Used React.js and React Native with Redux Saga for state management",
+      "Using version control systems like Git to manage and track changes"
+    ],
+  },
+  {
+    title: "Frontend Developer (Freelance)",
+    company_name: "PT. Metranet",
+    icon: metranet,
+    iconBg: "#383E56",
+    date: "Sept 2024 - Feb 2025",
+    points: [
+      "Developed SiHalal App (Admin Interface)",
+      "Managed merchant certification administration",
+      "Typescript Development using Nuxt3 with Vuetify & Materialize.",
+      "Using version control systems like Git to manage and track changes"
+    ],
+  },
+  {
+    title: "Frontend Developer (Freelance)",
+    company_name: "PT. Avrist Life Insurance",
+    icon: avrist,
+    iconBg: "#383E56",
+    date: "Apr 2024 - Sept 2024",
+    points: [
+      "Built Avrast Frontpage and Avram Frontpage (Web Apps)",
+      "Collaborated with UI/UX designers and used Git for version control",
+      "Typescript Development using Next Js",
+      "Using version control systems like Git to manage and track changes"
+    ],
+  },
+  {
+    title: "Mobile Developer (Freelance)",
+    company_name: "PT. Kara Digital",
+    icon: kara,
+    iconBg: "#383E56",
+    date: "Dec 2023 - March 2024",
+    points: [
+      "Collaborate with UI/UX designers to translate mockups and wireframes into intereactive mobile interfaces",
+      "Develope HTML markup and CSS stylesheets to structure and style mobile apps according to design specifications",
+      "Typescript Development using React Native",
+      "Using version control systems like Git to manage and track changes",
+    ],
+  },
   {
     title: "Frontend Developer (Full-time)",
     company_name: "PT. Elektronik Distribusi Otomatisasi Terkemuka (eDOT)",
