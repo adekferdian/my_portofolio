@@ -41,7 +41,7 @@ import kotlin from './kotlin.png';
 import kara from './kara_logo.jpeg';
 import avrist from './avrist_logo.png';
 import metranet from './metra_logo.png';
-import mandala from './mandala_logo.webp'
+import mandala from './Mandala_logo.webp'
 
 export {
   logo,
